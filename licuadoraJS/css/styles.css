@@ -10,11 +10,16 @@
     transform: translate(-50%, -50%);
     width: 250px;
     height: 500px;
-    background-color: blueviolet;
+    background-image: url('../img/licuadoraApagada.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blender.active{
+    background-image: url('../img/licuadoraEncendida.gif');
 }
 .blender-button{
     margin: 350px auto 0px;
     width: 70px;
     height: 70px;
-    background: yellow;
 }
