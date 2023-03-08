@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+.main{ 
+    height: 300vh;
+    width: 100%;
+    background-color: aquamarine;
+    
+}
+
+.progress-bar{
+    position: fixed;
+    width: 100%;
+    height: 35px;
+}
+.progress{
+    height: 100%;
+    width: 0%;/**seteamos el largo de la barra a 0 pa que no se vea*/
+    background: red;
+    font-size: 30px;
+    text-align: center;
+}
